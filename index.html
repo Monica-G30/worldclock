@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.6.0/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock</title>
   </head>
   <body>
@@ -17,19 +19,23 @@
         <option value="tokyo">Tokyo</option>
       </select>
 
-      <div class="city">
+      <div class="city" id="nairobi">
         <div>
-          <h2>Kampala</h2>
-          <div class="date">July 15th,2025</div>
+          <h2>Nairobi</h2>
+          <div class="date"></div>
         </div>
-        <div class="time">
-          1:45:20
-          <small>PM</small>
+        <div class="time"></div>
+      </div>
+      <div class="city" id="dakar">
+        <div>
+          <h2>Dakar</h2>
+          <div class="date"></div>
         </div>
+        <div class="time"></div>
       </div>
     </div>
     <footer>
-      This project was coded by Monica Gikaru
+      This project was coded by <strong>Monica Gikaru</strong>
       <a href="https://github.com/Monica-G30/worldclock" target="_blank"
         >and is open-sourced on Github</a
       >

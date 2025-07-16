@@ -11,6 +11,17 @@ body {
   box-shadow: rgba(100, 100, 111, 0.7) 0px 7px 29px 0px;
   border-radius: 10px;
 }
+select {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+h2 {
+  margin: 0 0 5px;
+  font-size: 28px;
+}
 
 .city {
   display: flex;
@@ -22,10 +33,6 @@ body {
 
 .city :last-child {
   border: none;
-}
-h2 {
-  margin: 0 0 5px;
-  font-size: 28px;
 }
 
 .date {
@@ -41,13 +48,6 @@ h2 {
   font-size: 24px;
   vertical-align: middle;
   line-height: 36px;
-}
-
-select {
-  display: block;
-  width: 100%;
-  border-radius: 4px;
-  padding: 10px;
 }
 
 footer {
